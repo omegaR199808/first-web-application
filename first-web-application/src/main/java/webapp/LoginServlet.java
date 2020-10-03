@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 		
 
-	}
+	}//toGet is used for creating the request in webapp
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		 String name = request.getParameter("name");
