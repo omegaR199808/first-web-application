@@ -58,6 +58,6 @@ public class LoginServlet extends HttpServlet {
 				request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 			}
 
-	}
+	}//this functiom is used for doing post or response the command
 
 }
