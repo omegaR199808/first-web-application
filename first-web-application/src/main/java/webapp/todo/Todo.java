@@ -1,7 +1,7 @@
 package webapp.todo;
 
 public class Todo {
-
+	//Todo list are name of todo
 	public Todo(String name) {
 		super();
 		this.name = name;
